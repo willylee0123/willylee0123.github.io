@@ -24,9 +24,9 @@ var myImage = document.querySelector("img");
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
   if (mySrc === "images/YT1.png") {
-    myImage.setAttribute("src", "C:\web-projects\test-site\images\YT2.png");
+    myImage.setAttribute("src", "images/YT2.png");
   } else {
-    myImage.setAttribute("src", "C:\web-projects\test-site\images\YT1.png");
+    myImage.setAttribute("src", "images/YT1.png");
   }
 };
 
